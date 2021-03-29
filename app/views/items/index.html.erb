@@ -1,0 +1,13 @@
+<h1>Test-index-items</h1>
+
+<h2> Items</h2>
+
+<ul>
+  <%@items.each do |item|%>
+    <li>
+      <a
+      <%=link_to item.name, item%>
+      
+    </li>
+  <%end%>
+</ul>
