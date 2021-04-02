@@ -3,8 +3,8 @@ Rails.application.routes.draw do
 
   root "items#index"
   resources :items
-  get "/signup", to 'users#new'
-  post '/signup', to 'users#create'
-  get '/ussers/:id', to 'users#show' 
+  get "/signup", to: "users#new"
+  post "/signup", to: "users#create"
+  get "/ussers/:id", to: "users#show" 
 
 end
