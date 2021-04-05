@@ -1,4 +1,4 @@
-class UsersContoller > ApplicationController
+class UsersContoller < ApplicationController
 
     def new
         @user = User.new
@@ -10,5 +10,6 @@ class UsersContoller > ApplicationController
             redirect_to items_path
         else
             redirect_to signup_path
+        end
     end
 end
