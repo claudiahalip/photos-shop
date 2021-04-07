@@ -12,4 +12,6 @@ class UsersContoller < ApplicationController
             redirect_to signup_path
         end
     end
+
+    
 end
